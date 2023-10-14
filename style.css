@@ -19,6 +19,7 @@ html, body {
     bottom: 0;
     left: 0; 
     right: 0;
+    z-index: -1;
     margin: auto;
     transform: rotate(180deg);
 }
@@ -78,7 +79,7 @@ body{
 
 .botao{
     width: 20%;
-    height: 200px;
+    height: 230px;
 }
 
 #position-btn1{
@@ -129,37 +130,38 @@ body{
         top: 160px;
         margin: 0px auto;
     }
-        #position-btn2{
-            position: absolute;
-            right: 50%; left: 0; bottom: 0;
-            top: 360px;
-            margin: 0px auto;
-        }
-        #position-btn3{
-            position: absolute;
-            right: 0; left: 50%; bottom: 0;
-            top: 560px;
-            margin: 0px auto;
-        }
-        #position-btn4{
-            position: absolute;
-            right: 50%; left: 0; bottom: 0;
-            top: 760px;
-            margin: 0px auto;
-        }
-        #position-btn5{
-            position: absolute;
-            right: 0; left: 50%; bottom: 0;
-            top: 960px;
-            margin: 0px auto;
-        }
-        #position-btn6{
-            position: absolute;
-            right: 50%; left: 0; bottom: 0;
-            top: 1160px;
-            margin: 0px auto;
-        }
+    #position-btn2{
+        position: absolute;
+        right: 50%; left: 0; bottom: 0;
+        top: 360px;
+        margin: 0px auto;
+    }
+    #position-btn3{
+        position: absolute;
+        right: 0; left: 50%; bottom: 0;
+        top: 560px;
+        margin: 0px auto;
+    }
+    #position-btn4{
+        position: absolute;
+        right: 50%; left: 0; bottom: 0;
+        top: 760px;
+        margin: 0px auto;
+    }
+    #position-btn5{
+        position: absolute;
+        right: 0; left: 50%; bottom: 0;
+        top: 960px;
+        margin: 0px auto;
+    }
+    #position-btn6{
+        position: absolute;
+        right: 50%; left: 0; bottom: 0;
+        top: 1160px;
+        margin: 0px auto;
+    }
 }
+
 
 
 
