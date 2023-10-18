@@ -10,6 +10,15 @@ html, body {
     background-size: cover;
 }
 
+@font-face {
+    font-family: 'sapeca';
+    src: url(fontes/proclamate/proclamate\ heavy.ttf);
+}
+@font-face {
+    font-family: 'sapecagem';
+    src: url(fontes/proclamate/proclamate\ incised.ttf);
+}
+
 .linha{
     background: #ffff;
     height: 2000px;
