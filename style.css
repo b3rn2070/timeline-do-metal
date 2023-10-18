@@ -78,44 +78,72 @@ body{
 }
 
 .botao{
+    position: absolute;
     width: 20%;
     height: 230px;
+    border-radius: 1em;
+    transition: 100ms;
+}
+
+.botao:hover{
+    width: 25%;
+    height: 290px;
+    
+}
+
+#position-btn1:hover{
+    top: 63px;
+}
+#position-btn2:hover{
+    top: 263px;
+}
+#position-btn3:hover{
+    top: 463px;
+}
+#position-btn4:hover{
+    top: 663px;
+}
+#position-btn5:hover{
+    top: 863px;
+}
+#position-btn6:hover{
+    top: 1063px;
 }
 
 #position-btn1{
     position: absolute;
     right: 0; left: 40%; bottom: 0;
-    top: 100px;
+    top: 85px;
     margin: 0px auto;
 }
 #position-btn2{
     position: absolute;
     right: 40%; left: 0; bottom: 0;
-    top: 300px;
+    top: 285px;
     margin: 0px auto;
 }
 #position-btn3{
     position: absolute;
     right: 0; left: 40%; bottom: 0;
-    top: 500px;
+    top: 485px;
     margin: 0px auto;
 }
 #position-btn4{
     position: absolute;
     right: 40%; left: 0; bottom: 0;
-    top: 700px;
+    top: 685px;
     margin: 0px auto;
 }
 #position-btn5{
     position: absolute;
     right: 0; left: 40%; bottom: 0;
-    top: 900px;
+    top: 885px;
     margin: 0px auto;
 }
 #position-btn6{
     position: absolute;
     right: 40%; left: 0; bottom: 0;
-    top: 1100px;
+    top: 1085px;
     margin: 0px auto;
 }
 
