@@ -1,6 +1,19 @@
-html, body {
-    height: 1300px;
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html{
+    height: 100vh!important;
+    width: 100vh;
+}
+
+body{
+    min-height: 100vh!important;
+    min-width: 100vh;
+}
+
 .background{
     background-image: url(grunge-texture-background-collecti/close-up-photography-negative.jpg);
     min-height: 500px;
@@ -8,7 +21,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    z-index: -10;
 }
 
 @font-face {
@@ -22,22 +35,15 @@ html, body {
 
 .linha{
     background: #ffff;
-    height: 2000px;
-    position: absolute;
+    height: 3000px;
     width: 1px;
-    top: 0; 
-    bottom: 0;
-    left: 0; 
-    right: 0;
-    z-index: -10;
+    position: absolute;
+    right: 0; left: 0; bottom: 0;
+    top: 0;
     margin: auto;
-    transform: rotate(180deg);
-}
 
-body{
-    background-color:#0000;
-}
 
+}
 
 .indicador{
     background: #ffff;
@@ -83,27 +89,36 @@ body{
     top: 0;
     margin: 1200px auto;
 }
+#position-indic7{
+    position: absolute;
+    right: 0; left: 10%; bottom: 0;
+    top: 0;
+    margin: 1400px auto;
+}
+#position-indic8{
+    position: absolute;
+    right: 10%; left: 0; bottom: 0;
+    top: 0;
+    margin: 1600px auto;
+}
+#position-indic9{
+    position: absolute;
+    right: 0; left: 10%; bottom: 0;
+    top: 0;
+    margin: 1800px auto;
+}
 
 ::-webkit-scrollbar {
     width: 0;
 }
 
 .botao{
-    position: absolute;
+    position: relative;
     width: 20%;
     height: 230px;
     border-radius: 0.25em;
     transition: 100ms;
     background-color: rgba(255, 255, 255, 0.6);
-    
-}
-
-.cover{
-    width: 20%;
-    height: 230px;
-    border-radius: 1em;
-    background-color: black;
-    z-index: -1;
 }
 
 .botao:hover{
@@ -130,19 +145,21 @@ body{
 #position-btn6:hover{
     top: 1063px;
 }
+#position-btn7:hover{
+    top: 1263px;
+}
+#position-btn8:hover{
+    top: 1463px;
+}
+#position-btn9:hover{
+    top: 1663px;
+}
 
 #position-btn1{
     position: absolute;
     right: 0; left: 40%; bottom: 0;
     top: 85px;
     margin: 0px auto;
-}
-
-.black-sab{
-    background-color: rgba(255, 255, 255, 0.75);
-    background-image: url(imagens/Black-Sabado.webp);
-    background-position: center;
-    background-size: cover;
 }
 
 #position-btn2{
@@ -175,18 +192,35 @@ body{
     top: 1085px;
     margin: 0px auto;
 }
+#position-btn7{
+    position: absolute;
+    right: 0; left: 40%; bottom: 0;
+    top: 1285px;
+    margin: 0px auto;
+}
+#position-btn8{
+    position: absolute;
+    right: 40%; left: 0; bottom: 0;
+    top: 1485px;
+    margin: 0px auto;
+}
+#position-btn9{
+    position: absolute;
+    right: 0; left: 40%; bottom: 0;
+    top: 1685px;
+    margin: 0px auto;
+}
 
 @media(max-width: 500px){
     .botao{
-    width: 30%;
-    height: 80px;
+        width: 30%;
+        height: 80px;
     }
 
-    .cover{
-    width: 30%;
-    height: 80px;
+    .btn-txt{
+        color: rgba(216, 0, 0, 1);
     }
-
+    
     #position-btn1{
         position: absolute;
         right: 0; left: 50%; bottom: 0;
@@ -223,6 +257,24 @@ body{
         top: 1160px;
         margin: 0px auto;
     }
+    #position-btn7{
+        position: absolute;
+        right: 0; left: 50%; bottom: 0;
+        top: 1385px;
+        margin: 0px auto;
+    }
+    #position-btn8{
+        position: absolute;
+        right: 50%; left: 0; bottom: 0;
+        top: 1585px;
+        margin: 0px auto;
+    }
+    #position-btn9{
+        position: absolute;
+        right: 0; left: 50%; bottom: 0;
+        top: 1785px;
+        margin: 0px auto;
+    }
 }
 
 .bckgtxt{
@@ -238,11 +290,11 @@ body{
     font-family: 'Old English Text MT';
     color:rgba(255, 255, 255, 0);
     transition: 100ms;
-    font-size: 3.25em;
+    font-size: 3.5em;   
 }
 
 .btn-txt:hover{
-    color:rgba(148, 71, 165, 1);
+    color: #D80000;
 }
 
 .rose{
@@ -251,6 +303,43 @@ body{
     background-position: center;
     background-size: cover;
 }
+
+.black-sab{
+    background-color: rgba(255, 255, 255, 0.75);
+    background-image: url(imagens/Black\ Sabado.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.maiden{
+    background-color: rgba(255, 255, 255, 0.75);
+    background-image: url(imagens/maiden.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.slayer{
+    background-color: rgba(255, 255, 255, 0.75);
+    background-image: url(imagens/FUCKING\ SLAYER.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.death{
+    background-color: rgba(255, 255, 255, 0.75);
+    background-image: url(imagens/death.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.quorton{
+    background-color: rgba(255, 255, 255, 0.75);
+    background-image: url(imagens/quorton.webp);
+    background-position: top;
+    background-size: cover;
+}
+
+
 
 
 
