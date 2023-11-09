@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    display: flex;
+    display: flex-start;
     flex-direction: column;
     justify-content: center;
     margin: 0;
@@ -23,7 +23,7 @@ main {
     overflow: hidden;
 }
 
-main > * {
+main>* {
     display: flex;
     gap: 10em;
     flex-direction: column;
@@ -183,7 +183,7 @@ main > * {
     .botao {
         background-color: white;
         height: 190px;
-        width: 280px;
+        width: 240px;
     }
 
     .dalailama {
