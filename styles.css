@@ -100,26 +100,10 @@ main>* {
 
 @media (max-width: 1026px) {
 
-    .btn-txt {
-        font-family: 'Old English Text MT';
-        color: #d80000;
-        font-size: 3.5em;
-    }
-
     .botao {
         background-color: white;
         height: 210px;
         width: 300px;
-    }
-
-    .botao:hover {
-        opacity: 1;
-        background-color: white;
-    }
-
-    .btn-text:hover {
-        opacity: 1;
-        color: #D80000;
     }
 
     .dalailama {
@@ -332,6 +316,42 @@ main>* {
     background-size: cover;
 }
 
+.candlemass {
+    background-image: url(imagens/candlemass.webp);
+    background-position: top;
+    background-size: cover;
+}
+
+.teatrao {
+    background-image: url(imagens/teatrao.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.rammstein {
+    background-image: url(imagens/banda\ sexo.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.korn {
+    background-image: url(imagens/URRDNOTRUUHRAHDANDANNIDAN.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.a7x {
+    background-image: url(imagens/viadagem.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.sla {
+    background-image: url(imagens/sla.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
 .bckgtxt {
     background-color: #ffff;
     padding: 20px;
@@ -342,8 +362,8 @@ main>* {
 }
 
 .botao:hover {
-    width: 570px;
-    height: 420px;
+    width: 470px;
+    height: 320px;
     background-color: rgba(255, 255, 255, 1);
 }
 
