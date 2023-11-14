@@ -134,8 +134,8 @@ main>* {
 @media (max-width: 410px) {
     .botao {
         background-color: white;
-        height: 210px;
-        width: 310px;
+        height: 190px;
+        width: 250px;
     }
 
     .dalailama {
@@ -166,8 +166,8 @@ main>* {
 @media (max-width: 320px) {
     .botao {
         background-color: white;
-        height: 190px;
-        width: 240px;
+        height: 180px;
+        width: 280px;
     }
 
     .dalailama {
@@ -354,11 +354,17 @@ main>* {
 
 .bckgtxt {
     background-color: #ffff;
-    padding: 20px;
-    border-radius: 40px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 3%;
+    border-radius: 20px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 60px 60px;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
 }
 
 .botao:hover {
@@ -369,4 +375,17 @@ main>* {
 
 .btn-txt:hover {
     color: #D80000;
+}
+
+h1 {
+    font-family: 'Old English Text MT';
+}
+
+.footer {
+    background-color: #000000;
+    height: 100px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
